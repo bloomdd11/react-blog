@@ -1,5 +1,5 @@
 import React from "react";
-import { Home, SingleBlog } from "./components";
+import { Home, SingleBlog, NotFound } from "./components";
 import {
   Routes,
   Route,
@@ -22,6 +22,7 @@ export default function App() {
             path="singleblog/:blogID"
             element={<PassIDToSingleBlog></PassIDToSingleBlog>}
           ></Route>
+          <Route path="*" element={<NotFound></NotFound>}></Route>
         </Routes>
       </Router>
     </div>

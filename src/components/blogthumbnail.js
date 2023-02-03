@@ -12,7 +12,7 @@ export default function Blogthumbnail({ blogdetails }) {
       <p className="author">{author}</p>
       <p className="detail">
         {detail.slice(0, detail.length / 5)}
-        <Link to="singleblog" className="more">
+        <Link to={`singleblog/${id}`} className="more">
           more...
         </Link>
       </p>

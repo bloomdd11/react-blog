@@ -1,0 +1,19 @@
+.notfound {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.notfound h1 {
+  font-size: 3rem;
+}
+.notfound h3 {
+  margin: 20px 0;
+  font-size: 1.5rem;
+}
+.notfound p a {
+  color: blue;
+}
+.notfound p a:hover {
+  color: black;
+}
