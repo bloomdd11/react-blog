@@ -1,0 +1,18 @@
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 2rem;
+  background-color: #ddd;
+  padding: 10px 0;
+  margin-bottom: 0.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav a :hover {
+  color: #555;
+}
